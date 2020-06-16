@@ -1,9 +1,9 @@
 var containers = [] // will store container HTMLElement references
 var styleElements = [] // will store {prepend: HTMLElement, append: HTMLElement}
 
-var usage = 'insert-css: You need to provide a CSS string. Usage: appendCss(cssString[, options]).'
+var usage = 'insert-css: You need to provide a CSS string. Usage: appendStyleCss(cssString[, options]).'
 
-function appendCss(css, options) {
+function appendStyleCss(css, options) {
   options = options || {}
 
   if (css === undefined) {
@@ -69,5 +69,5 @@ function createStyleElement() {
   return styleElement
 }
 
-module.exports = appendCss
-module.exports.appendCss = appendCss
+module.exports = appendStyleCss
+module.exports.appendStyleCss = appendStyleCss

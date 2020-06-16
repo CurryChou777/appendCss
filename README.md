@@ -1,21 +1,21 @@
-# appendCss
+# appendStyleCss
 
 insert a string of css into the `<head>` or custom element
 
 # example
 
 ``` js
-    var appendCss = require('append-css');
-    var styleElement = appendCss('body { background:blue; }');
+    var appendStyleCss = require('append-style-css');
+    var styleElement = appendStyleCss('body { background:blue; }');
 ```
 
 # api
 
 ``` js
-    var appendCss = require('append-css');
+    var appendStyleCss = require('append-style-css');
 ```
 
-## var styleElement = appendCss(css, opts);
+## var styleElement = appendStyleCss(css, opts);
 
 Insert some CSS into the page.
 
