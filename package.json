@@ -1,0 +1,37 @@
+{
+    "name": "appendCss",
+    "version": "1.0.0",
+    "description": "insert a string of css into the <head>",
+    "main": "index.js",
+    "dependencies": {},
+    "scripts": {
+        "example": "budo example.js"
+    },
+    "devDependencies": {
+        "browserify": "^13.0.1",
+        "budo": "^8.3.0",
+        "computed-style": "^0.3.0",
+        "dom-event": "^1.0.0",
+        "tape": "^4.6.0",
+        "tape-run": "^2.1.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:zhouhuan0910/appendCss.git"
+    },
+    "homepage": "https://github.com/zhouhuan0910/appendCss",
+    "keywords": [
+        "css",
+        "insert",
+        "dom",
+        "styles",
+        "stylesheet",
+        "style",
+        "html",
+        "head"
+    ],
+    "author": {
+        "name": "Curry Chou"
+    },
+    "license": "MIT"
+}
